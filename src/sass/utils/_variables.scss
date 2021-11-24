@@ -1,0 +1,28 @@
+// шрифты
+
+$primary-font: 'DM Sans', sans-serif;
+$secondary-font: 'Titan One', cursive;
+
+// Цвета, все. Назвал как фантазии хватило.
+
+$accent-color: #d41443; // красный
+$title-color: #ffa5ba; //фон эллипса, заголовки, неактивные иконки, время работы
+$primary-text-color: #907e82; // цвет "серенького текста"
+$line-color: #e1e1e1; // цвет линий и иконки в комментах
+$button-products-hov-col: #c7133e; //цвет ховера кнопки продукты
+$button-white-hov-col: #ecebeb; //цвет ховера кнопки белого типа
+$button-location-hov-col: #d41342; // цвет ховера иконки локейшн
+
+$header-background: #ffb8ca; // фон хэдера и "Ice cream"
+$coffee-background: #f0d1a5; // фон "Ice coffee" и "CAFE"
+$milkshakes-background: #c2e297; // фон "Milkshakes" и "FOOD TRUCK"
+$comments-background: #fafafa; // цвет фона в комментах
+$menu-background: #e17992; // фон мобильного меню
+
+$white-color: #ffffff;
+$black-color: #000000;
+
+// Время трансформации и кубик Безье
+
+$animation-duration: 250ms;
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);

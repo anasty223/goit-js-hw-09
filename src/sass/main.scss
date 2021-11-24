@@ -1,0 +1,74 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Base
+@import 'base/normalize';
+
+// variables and mixin
+@import 'utils/breakpoints';
+@import 'utils/variables';
+@import 'utils/responsive';
+@import 'utils/mixins';
+
+//components
+@import 'components/animations';
+@import 'components/buttons';
+@import 'components/hero-header';
+@import 'components/products';
+@import 'components/about';
+@import 'components/advantages';
+@import 'components/gallery';
+@import 'components/customer-reviews';
+@import 'components/contacts';
+@import 'components/footer';
+
+body {
+  font-family: '$primary-font', sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 480px;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

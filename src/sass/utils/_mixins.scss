@@ -1,0 +1,11 @@
+@mixin customBg($image, $bg-size: contain, $bg-att: scroll, $bg-repeat: no-repeat) {
+  background-image: url($image);
+  background-size: $bg-size;
+  background-attachment: $bg-att;
+  background-repeat: $bg-repeat;
+}
+
+@mixin centeredButton($type, $main-axis) {
+  display: $type;
+  justify-content: $main-axis;
+}
