@@ -26,7 +26,7 @@ function onSubmit(evt) {
  console.log('step', step)
 
   let position = '';//єто номер создаваемого промиза
- for (let index = 0; index <= amount; index++) {
+ for (let index = 1; index <= amount; index++) {
   position = index; 
 
    delay += step;//к-во времени мы плюсуем шаги, переходим

@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -15,4 +15,27 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+.timer {
+  display: flex;
+}
+.field {
+  margin-right: 10px;
+  background-color: aquamarine;
+  outline: 1px solid gray;
+  margin-top: 10px;
+  padding: 2px;
+}
+.btn {
+  height: 20px;
+  width: 140px;
+  background-color: rgb(88, 172, 144);
+  border: none;
+  outline: 1px solid gray;
+}
+.flatpickr-input {
+  height: 20px;
+  width: 180px;
+  outline: 1px solid gray;
+  border: none;
 }

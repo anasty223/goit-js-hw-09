@@ -10,11 +10,11 @@ import "flatpickr/dist/flatpickr.min.css";
   onClose(selectedDates) {
       
     if (selectedDates[0]< Date.now()) {
-        refs.startBtn.setAttribute('disabled', true)
-        window.alert( "Please choose a date in the future") 
-    } refs.startBtn.removeAttribute('disabled');
-        
-    
+    refs.startBtn.setAttribute('disabled', true);
+    window.alert( "Please choose a date in the future") 
+    }  refs.startBtn.removeAttribute('disabled');
+      
+    refs.inputData.setAttribute('disabled', true);
       refs.startBtn.addEventListener('click', () => {
           function timer() {
                 let currentData = new Date();
@@ -33,8 +33,8 @@ import "flatpickr/dist/flatpickr.min.css";
     }
         setInterval(timer, 1000);
          
-     refs.startBtn.setAttribute('disabled', true);
-     refs.startBtn.removeAttribute('disabled');
+    //  refs.startBtn.setAttribute('disabled', true);
+    //  refs.startBtn.removeAttribute('disabled');
         })
         
        },
